@@ -1,0 +1,9 @@
+@import '../constants/colors.scss';
+
+.card {
+  display: flex;
+  box-shadow: 1px 1px 5px 1px rgba($black, .2);
+  border-radius: 16px;
+  background-color: $white;
+  padding: 8px 16px;
+}

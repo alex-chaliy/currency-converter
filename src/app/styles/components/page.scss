@@ -1,0 +1,15 @@
+@import './cards.scss';
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.page-content {
+  @extend .card;
+  width: 90%;
+  flex-direction: column;
+}

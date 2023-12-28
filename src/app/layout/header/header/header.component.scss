@@ -1,0 +1,31 @@
+@import '../../../styles/constants/colors.scss';
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: $white;
+  box-shadow: 1px 1px 5px 1px rgba($black, .2);
+  padding: 16px;
+
+  &-content {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.app-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.currency-course {
+  font-size: 15px;
+  margin-bottom: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
